@@ -48,6 +48,8 @@ Modifiers can be appended **after** the sound effect string to customize playbac
 |----------------------------|-------------------------------------------------------------------|--------------------------------|
 | `#x`                      | Select the x-th variant of a sound if multiple are available      | `sound#2`                      |
 | `=x`                      | Interrupt the sound after **x seconds**                           | `sound=5`                      |
+| `%x`                      | Set the pitch of the audio to x                                   | `sound%2`                      |
+| `^x`                      | Set the volume of the audio to x                                  | `sound^2`                      |
 | `--x`                     | Interrupt after **x%** of the sound has been played               | `sound--50`                    |
 | `:select(index)`          | Same as `#x`, selects the variant by index                        | `sound:select(3)`              |
 | `:speed(speed)`           | Change playback speed (e.g., 1.5 for 1.5x speed)                  | `sound:speed(1.2)`             |
