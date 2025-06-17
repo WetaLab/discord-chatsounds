@@ -51,6 +51,8 @@ Modifiers can be appended **after** the sound effect string to customize playbac
 | `%x`                      | Set the pitch of the audio to x                                   | `sound%2`                      |
 | `^x`                      | Set the volume of the audio to x                                  | `sound^2`                      |
 | `--x`                     | Interrupt after **x%** of the sound has been played               | `sound--50`                    |
+| `%%x.x`                   | pitch(x) to pitch(x) fade                                         | `sound%%2.5`                   |
+| `^^x.x`                   | volume(x) to volume(x) fade                                       | `sound^^2.5`                   |
 | `:select(index)`          | Same as `#x`, selects the variant by index                        | `sound:select(3)`              |
 | `:speed(speed)`           | Change playback speed (e.g., 1.5 for 1.5x speed)                  | `sound:speed(1.2)`             |
 | `:pitch(semitones)`       | Change pitch by semitones (positive or negative)                  | `sound:pitch(3)`               |
