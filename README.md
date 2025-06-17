@@ -98,7 +98,7 @@ $search {*}
 - Play the 2nd variant of "alert" sound at 1.5x speed and pitch shifted up 2 semitones:  
 ```
 
-alert:speed(1.5):pitch(2)#2
+alert#2:speed(1.5):pitch(2)
 
 ```
 
