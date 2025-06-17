@@ -66,40 +66,40 @@ Modifiers can be appended **after** the sound effect string to customize playbac
 - Enable chat sounds:  
 ```
 
-\$enable
+$enable
 
 ```
 
 - Search for all sounds in the "music" category:  
 ```
 
-\$search [music]
+$search [music]
 
 ```
 
 - List all categories starting with "game":  
 ```
 
-\$search {game}
+$search {game}
 
 ```
 
 - List all categories:  
 ```
 
-\$search {\*}
+$search {*}
 
 ```
 
 - Play the 2nd variant of "alert" sound at 1.5x speed and pitch shifted up 2 semitones:  
 ```
 
-alert\:speed(1.5)\:pitch(2)#2
+alert:speed(1.5):pitch(2)#2
 
 ```
 
 - Stop currently playing sounds:  
 ```
 
-\$stop
+$stop
 ```
