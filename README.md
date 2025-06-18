@@ -62,7 +62,7 @@ Modifiers can be appended **after** the sound effect string to customize playbac
 | `:lowpass(ratio)`         | Apply low-pass filter with given ratio (0-1)                      | `sound:lowpass(.5)`            |
 | `:highpass(ratio)`        | Apply high-pass filter with given ratio (0-1)                     | `sound:highpass(0.8)`          |
 | `:reverse()`              | Play the sound in reverse                                         | `sound:reverse()`              |
-
+| `:bass(intensity)`        | Apply bass boost (0-1)                                            | `sound:bass(0.5)`              |
 ---
 
 ## Example Usage
